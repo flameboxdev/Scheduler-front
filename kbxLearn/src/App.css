@@ -1,0 +1,33 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.item {
+  margin: 10px 0;
+  padding: 20px;
+  width: 100%;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center;
+}
