@@ -52,7 +52,6 @@ const Form = () => {
                 className={'input'}
                 placeholder="Home"
                 value={homestation}
-                defaultValue={null}
                 onChange={onChangeHomestation}
             >
 
@@ -77,7 +76,7 @@ const Form = () => {
             </select>
 
 
-            <img className={'image'} src={'../../assets/e.png'}/>
+            <img className={'image'} src={'${HOME}/assets/e.png'}/>
 
             <label>Работа:</label>
             <select
