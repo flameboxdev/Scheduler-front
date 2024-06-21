@@ -3,8 +3,8 @@ import './Form.css';
 import {useTelegram} from "../../hooks/useTelegram";
 
 const Form = () => {
-    const [homestation, setHomestation] = useState('');
-    const [workstation, setWorkstation] = useState('');
+    const [homestation, setHomestation] = useState('s9613181');
+    const [workstation, setWorkstation] = useState('s9613602');
 
     // const [passser, setPassser] = useState('');
     
