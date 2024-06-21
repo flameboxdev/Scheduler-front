@@ -76,7 +76,7 @@ const Form = () => {
             </select>
 
 
-            <img className={'image'} src={'${HOME}/assets/e.png'}/>
+            <img className={'image'} src={'/e.png'}/>
 
             <label>Работа:</label>
             <select
